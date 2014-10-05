@@ -89,7 +89,7 @@ public class LoggingAspect {
 	
 	//--------------------------------------------------------------
 	
-	@Before("allTheGetters2()")
+	@Before("allTheGettersInCircle()")
 	public void LoggingAdvise1(JoinPoint joinPoint){
 		System.out.println("Advise1 Run , Logging Aspect1 Called!");
 		System.out.println(joinPoint.toString());
@@ -105,7 +105,7 @@ public class LoggingAspect {
 	public void allTheGetters1(){}
 	
 	@Pointcut("within(com.sampath.springaop.work.dto.Circle)")
-	public void allTheGetters2(){}
+	public void allTheGettersInCircle(){}
 	
 }
 	

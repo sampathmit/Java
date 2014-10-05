@@ -13,6 +13,7 @@ public class AopMain {
 		sp.getCircle().setName("PAPA");
 		System.out.println(sp.getCircle().getName());
 		System.out.println("==========PROGRAM END============");
+		System.out.println("==========PROGRAM END 1============");
 		/*System.out.println("==========================================");
 		System.out.println(sp.getTriangle().getName());*/
 	}

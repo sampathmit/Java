@@ -12,6 +12,7 @@ public class AopMain {
 		ShapeService sp = apc.getBean("shapeService",ShapeService.class);
 		sp.getCircle().setName("PAPA");
 		System.out.println(sp.getCircle().getName());
+		System.out.println("==========PROGRAM END============");
 		/*System.out.println("==========================================");
 		System.out.println(sp.getTriangle().getName());*/
 	}
